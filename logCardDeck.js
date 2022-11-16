@@ -58,4 +58,10 @@ const cards = [
  *
  * @param {array} deck A deck of cards
  */
-const logCardDeck = deck => {};
+const logCardDeck = deck => {
+  cards.forEach(console.log(`Value: ${cards.val}, Display Value: ${cards.displayVal}, Suit: ${cards.suit}`))
+return deck
+};
+logCardDeck();
+
+//cards.forEach(console.log(`Value: ${cards.val}, Display Value: ${cards.displayVal}, Suit: ${cards.suit}`))
